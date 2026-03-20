@@ -1,0 +1,13 @@
+{
+  "stores": "//div[@class='panel panel-default custom-panel']",
+  "Store_Name": "string(.//h2[contains(@class,'city-main-title')])",
+  "Address": "string(.//p[contains(@class,'grey-text')])",
+  "Region": "string(.//p[contains(@class,'city-main-sub-title')])",
+  "ETA": "string(.//p[contains(@class,'red-text mb-0')])",
+  "Timing": "string(.//div[contains(@class,'search-grid-right-text')])",
+  "Phone_Number": "string(.//p[contains(@class,'zred')])",
+  "Cost": "string(.//span[contains(@class,'col-xs-9')])",
+  "Good_for": "string(.//span[contains(@class,'nowrap')])",
+  "Store_Url": "string(.//div[@class='media-body']//a[1]/@href)",
+  "Menu_Url": ".//a[contains(@title,'Menu')]/@href"
+}
